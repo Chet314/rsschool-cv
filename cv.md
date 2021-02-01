@@ -44,7 +44,7 @@ static BigInteger FactTree(int n)
  - JavaRush online Java courses
  - Mendeleyev University of Chemical Technology of Russia
  
-### Lenguages
+### Languages
   - English B1
 
  
