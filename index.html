@@ -1,51 +1,47 @@
-## Viacheslav Apalkov
+<!DOCTYPE html>
+<html lang="en">
 
-[GitHub](https://github.com/Chet314/)
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rsschool-cv</title>
+</head>
 
-### About Me
+<body
+  style='display: grid; grid-template-columns: 30% 50%; grid-area: "nav" " main"; width: 100vw; height: 90vh; justify-content: center; grid-gap: 1rem;'>
+  <nav style='display: flex; flex-direction: column; align-items: center; '>
+    <img src="wolf.webp" alt="myAvatar"
+      style='max-width: 50%; border: 1px solid black;  margin: 50px;' />
+    <a href="https://github.com/Chet314" style=' text-decoration: none; color: blue'>GitHub</a>
+  </nav>
+  <main style='display: flex; flex-direction: column; align-items: ctnter; justify-content: center; '>
+    <h1>Viacheslav Apalkov</h1>
+    <h2>About me</h2>
+    <ul>
+      <li>I used to be a successful chemical engineer. I had been producing different compound matirials until one day I
+        realized that I wanted somthing else in this life</li>
+      <li>I studied Java because I wanted to know how the internet works</li>
+      <li>I studied HTML, CSS, JS, React to be able to create websites</li>
+    </ul>
+    <h2>Experience</h2>
+    <ul>
+      <li><a href='https://chet314.github.io/portfolio/' style='text-decoration: none; color: blue '>Portfolio for my
+          friend photographer</a></li>
+      <li>Chemical engineer</li>
 
-- I used to be a successful chemical engineer. I had been producing different compound matirials
-until one day I realized that I wanted somthing else in this life
-- I studied Java because I wanted to know how the internet works
-- I studied HTML, CSS, JS, React to be able to create websites
+    </ul>
+    <h2>Education</h2>
+    <ul>
+      <li>CodeAcademy online HTML, CSS, JS courses</li>
+      <li>JavaRush online Java courses</li>
+      <li>Mendeleyev University of Chemical Technology of Russia</li>
+    </ul>
+    <h2>Languages</h2>
+    <ul>
+      <li>English B1</li>
+    </ul>
+  </main>
+</body>
 
-### A bit of a beautiful code
-
-```markdown
-static BigInteger ProdTree(int l, int r)
-{
-    if (l > r)
-        return 1;
-    if (l == r)
-         return l;
-    if (r - l == 1)
-        return (BigInteger)l * r;
-    int m = (l + r) / 2;
-    return ProdTree(l, m) * ProdTree(m + 1, r);
-}
-        
-static BigInteger FactTree(int n)
-{
-    if (n < 0)
-        return 0;
-    if (n == 0)
-        return 1;
-    if (n == 1 || n == 2)
-        return n;
-    return ProdTree(2, n);
-}   
-```
-### Experience
-- [Portfolio for my friend photographer](https://chet314.github.io/portfolio/) 
-- Chemical engineer 
-
-### Education
- - CodeAcademy online HTML, CSS, JS courses 
- - JavaRush online Java courses
- - Mendeleyev University of Chemical Technology of Russia
- 
-### Lenguages
-  - English B1
-
- 
+</html>
 
