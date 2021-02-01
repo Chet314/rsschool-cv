@@ -39,3 +39,9 @@ static BigInteger FactTree(int n)
 - [Portfolio for my friend photographer](https://chet314.github.io/portfolio/) 
 - Chemical engineer 
 
+### Education
+ - CodeAcademy online HTML, CSS, JS courses 
+ - JavaRush online Java courses
+ - Mendeleyev University of Chemical Technology of Russia
+ 
+
